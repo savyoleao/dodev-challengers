@@ -1,0 +1,52 @@
+.titulo{
+   display: flex;
+   justify-content: center;
+}
+body{
+   width: 700px;
+}
+
+.c{
+   display: inline-block; /* deixar um do lado do outro*/
+   width: 250px;
+   height: 20px;
+   background-color: pink;
+   padding: 5px 10px 5px 10px;
+   margin: 10px 10px
+}
+
+.rotina{
+   display: inline-block;
+   width: 250px;
+   height: 230px;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+   background-color: blue;
+}
+
+.hobbies{
+   display: inline-block;
+   width: 250px;
+   height: 230px;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+   background-color: brown;
+}
+
+.artistas{
+   display: inline-block;
+   width: 250px;
+   height: 230px;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+   background-color: yellow;
+}
+
+.viagens{
+   display: inline-block;
+   width: 250px;
+   height: 230px;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+   background-color: blueviolet;
+}
