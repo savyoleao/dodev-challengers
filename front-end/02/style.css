@@ -1,13 +1,16 @@
 .titulo{
-   display: flex;
-   justify-content: center;
+
 }
 body{
    width: 700px;
 }
 
+.sections{
+   padding: 5px 150px 5px 10px;
+}
+
 .c{
-   display: inline-block; /* deixar um do lado do outro*/
+   float: left; /* deixar um do lado do outro*/
    width: 250px;
    height: 20px;
    background-color: pink;
@@ -16,37 +19,33 @@ body{
 }
 
 .rotina{
-   display: inline-block;
    width: 250px;
    height: 230px;
-   padding: 10px 10px 10px 10px;
-   margin: 10px 10px 10px 10px;
+   margin: 0px 0px 15px 0px;
    background-color: blue;
+   float: left;
 }
 
 .hobbies{
-   display: inline-block;
    width: 250px;
    height: 230px;
-   padding: 10px 10px 10px 10px;
-   margin: 10px 10px 10px 10px;
+   margin: 0px 0px 15px 0px;
    background-color: brown;
+   float: right;
 }
 
 .artistas{
-   display: inline-block;
    width: 250px;
    height: 230px;
-   padding: 10px 10px 10px 10px;
-   margin: 10px 10px 10px 10px;
+   margin: 0px 0px 15px 0px;
    background-color: yellow;
+   float: left;
 }
 
 .viagens{
-   display: inline-block;
    width: 250px;
    height: 230px;
-   padding: 10px 10px 10px 10px;
-   margin: 10px 10px 10px 10px;
+   margin: 0px 0px 15px 0px;
    background-color: blueviolet;
+   float: right;
 }
