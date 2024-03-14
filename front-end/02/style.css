@@ -1,52 +1,52 @@
-.titulo{
-   text-align: center;
-   padding-right: 100px;
-}
 body{
    width: 700px;
+   height: 700px;
 }
 
-.sections{
-   padding: 5px 150px 5px 10px;
+.titulo{
+   max-width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.cabecalho{
+   max-width: 90%;
+   margin: 20px auto;
 }
 
 .c{
-   float: left; /* deixar um do lado do outro*/
-   width: 250px;
+   width: 40%;
    height: 20px;
+   margin: 1% 2.25%;
    background-color: pink;
-   padding: 5px 10px 5px 10px;
-   margin: 10px 10px
+   float: left;
 }
 
-.rotina{
-   width: 250px;
+.sections{
+   max-width: 90%;
+   margin: 20px auto;
+}
+
+.card{
+   width: 40%;
    height: 230px;
-   margin: 0px 0px 15px 0px;
+   margin: 2% 2.25%;
+   float: left;
+}
+
+#rotina{
    background-color: blue;
-   float: left;
+   text-align: center;
 }
-
-.hobbies{
-   width: 250px;
-   height: 230px;
-   margin: 0px 0px 15px 0px;
-   background-color: brown;
-   float: right;
+#hobbies{
+   background-color: red;
+   text-align: center;
 }
-
-.artistas{
-   width: 250px;
-   height: 230px;
-   margin: 0px 0px 15px 0px;
+#artistas{
    background-color: yellow;
-   float: left;
+   text-align: center;
 }
-
-.viagens{
-   width: 250px;
-   height: 230px;
-   margin: 0px 0px 15px 0px;
-   background-color: blueviolet;
-   float: right;
+#viagens{
+   background-color: green;
+   text-align: center;
 }
