@@ -1,0 +1,19 @@
+.cabecalho{
+   max-width: 80vw; /*largura maxima: 80% da proporção da tela*/
+   margin: 0 auto; /*auto: ajusta o valor pra ficar proporcional os valores (os 20vw que faltam vão ser distribuidos 10 p cada lado*/
+   background-color: red;
+   text-align: center;
+}
+
+.container{
+   max-width: 80vw;
+   margin: 20px auto;
+}
+
+.card{
+   width: 35vw;
+   margin: 1vw 2.25vw;
+   background-color: red;
+   text-align: center;
+   float: left;
+}
