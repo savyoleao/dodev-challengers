@@ -1,0 +1,53 @@
+.header{
+   background-color: yellow;
+   height: 14vh;
+}
+.headerPart{
+   height: 7vh;
+   text-align: center;
+}
+#search{
+   height: 2,5vh;
+   margin-top: 2vh;
+   width: 50vw;
+   border-radius: 10px;
+   padding-left: 10px;
+}
+.navBar{
+   border-style: solid;
+   line-height: 6vh; /*alinhar no centro a linha*/
+}
+.optionsNav{
+   vertical-align: middle; /*centralizar o texto verticalmente*/
+   margin-left: 2vw;
+   text-decoration: none;
+   color: black;
+}
+.content{
+   height: 86vh;
+   background-color: #ebebeb;
+   text-align: center;
+}
+.containerPay{
+   background-color: white;
+   width: 80vw;
+   height: 15vh;
+   margin-top: 5vh;
+   border-radius: 0 1vw 1vw 0;
+   display: inline-block;
+}
+.firstOffer, .offer{
+   width: 20vw;
+   height: 15vh;
+   float: left;
+   text-align: left;
+}
+.firstOffer{
+   border-left: solid rgb(74, 74, 190) 5px;/*style, color, width*/
+}
+.offerTitle, .subTitle{
+   margin-left: 1vw;
+}
+.offerTitle{
+   margin-top: 3vh;
+}
