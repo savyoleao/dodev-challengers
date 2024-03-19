@@ -33,12 +33,9 @@
 }
 .containerPay{
    background-color: white;
-   width: 80vw;
    height: 15vh;
-   margin-top: 5vh;
    border-radius: 0 1vw 1vw 0;
-   display: inline-block;
-}
+ }
 .firstOffer, .offer{
    width: 20vw;
    height: 15vh;
@@ -53,4 +50,23 @@
 }
 .offerTitle{
    margin-top: 3vh;
+}
+.contents{
+   width: 80vw;
+   margin-top: 5vh;
+   display: inline-block;
+}
+.product{
+   background-color: white;
+   width: 15vw;
+   height: 224px;
+   margin-left: 2.5vw;
+   margin-right: 2.5vw;
+   float: left;
+   overflow: hidden
+}
+.product:hover{
+   transition-duration: 0.5s;
+   transition-timing-function: linear;
+   height: 330px;
 }
