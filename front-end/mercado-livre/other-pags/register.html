@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro</title>
+   <link rel="stylesheet" href="../style.css">
+   <link rel="stylesheet" href="./register.css">
+   <style>
+      html {
+         box-sizing: border-box;
+         font-size: 16px;
+      }
+
+      *, *:before, *:after {
+         box-sizing: inherit;
+      }
+
+      body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+         margin: 0;
+         padding: 0;
+         font-weight: normal;
+      }
+
+      ol, ul {
+         list-style: none;
+      }
+
+      img {
+         max-width: 100%;
+         height: auto;
+      }
+   </style>
+</head>
+<body>
+   <section class="header">
+      <article class="searchBar headerPart">
+         <input type="text" id="search">
+      </article>
+      <article class="navBar headerPart">
+         <a class="optionsNav" href="./category.html">Categorias</a>
+         <a class="optionsNav" href="./offersDay.html">Ofertas do dia</a>
+         <a class="optionsNav" href="./historic.html">Histórico</a>
+         <a class="optionsNav" href="./moda.html">Moda</a>
+         <a class="optionsNav" href="">Cadastre-se</a>
+      </article>
+   </section>
+   <section class="content">
+      <form class="forms">
+         <div class="fields">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="ex: Adryel Silva" id="name">
+         </div>
+         <div class="fields">
+            <label for="mail">e-mail</label>
+            <input type="email" id="mail" placeholder="exemplo@gmail.com">
+         </div>
+         <div class="fields">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="insira sua senha">
+         </div>
+         <div class="fields">
+            <label for="repeatPassword">Repita a Senha</label>
+            <input type="password" id="repeatPassword" placeholder="repita a senha">
+         </div>
+         <div class="fields">
+            <label for="gender">Gênero</label>
+            <select id="gender">
+               <option value="" selected>Insira seu gênero</option>
+               <option value="Masculino">Masculino</option>
+               <option value="Feminino">Feminino</option>
+               <option value="Outro">Outro</option>
+            </select>
+         </div>
+         <input type="submit" placeholder="enviar">
+      </form>
+   </section>
+</body>
+</html>

@@ -8,10 +8,8 @@
 }
 #search{
    height: 2,5vh;
-   margin-top: 2vh;
-   width: 50vw;
-   border-radius: 10px;
-   padding-left: 10px;
+   margin: 2vh;
+   padding-left: 5px;
 }
 .navBar{
    border-style: solid;
@@ -25,8 +23,8 @@
 }
 .optionsNav:hover{
    padding: 0.3%;
-   transition-duration: 0.5s;
-   background-color: rgb(85, 79, 79);
+   transition-duration: 0.2s;
+   background-color: #ebebeb;
 }
 .content{
    height: 86vh;
