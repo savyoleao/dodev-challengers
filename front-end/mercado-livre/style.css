@@ -23,6 +23,11 @@
    text-decoration: none;
    color: black;
 }
+.optionsNav:hover{
+   padding: 0.3%;
+   transition-duration: 0.5s;
+   background-color: rgb(85, 79, 79);
+}
 .content{
    height: 86vh;
    background-color: #ebebeb;
