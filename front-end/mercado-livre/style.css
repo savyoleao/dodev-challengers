@@ -59,14 +59,16 @@
 .product{
    background-color: white;
    width: 15vw;
-   height: 224px;
    margin-left: 2.5vw;
    margin-right: 2.5vw;
    float: left;
-   overflow: hidden
 }
-.product:hover{
-   transition-duration: 0.5s;
-   transition-timing-function: linear;
-   height: 330px;
+.product img{
+   border-bottom: solid black 2px;
+}
+.content-hidden h4{
+   display: none;
+}
+.product:hover .content-hidden h4{
+   display: block;
 }
