@@ -71,4 +71,5 @@
 }
 .product:hover .content-hidden h4{
    display: block;
+   transition: 0.5s all step-end;
 }
