@@ -14,3 +14,11 @@ input.addEventListener('focus', () => { //evento de foco no elemento input
 input.addEventListener('blur', () => { //evento de desfocar no elemento input (validação de email)
    console.log('desfocou o elemento')
 })
+
+document.addEventListener('scroll', () => { //descer uma página (pop-ups)
+   document.body.style.backgroundColor = "blue"
+})
+
+document.addEventListener('click', () => {
+   document.body.style.backgroundColor = "white"
+})
