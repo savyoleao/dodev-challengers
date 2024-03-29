@@ -14,3 +14,4 @@ window.localStorage.setItem('key', 'value') //armazena o valor
 window.sessionStorage.getItem('key') //busca o valor
 window.sessionStorage.removeItem('key')// remove um valor
 window.localStorage.clear()//limpa tudo
+//save storage
