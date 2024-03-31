@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de Lojas</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="" id="container">
+      <div class="registerStore">
+         <h1>Cadastro de Lojas</h1>
+         <div class="form-group h1" id="nameDiv">
+            <label for="nameStore">Nome da Loja</label>
+            <input type="text" name="name" id="nameStore" class="input">
+         </div>
+         <div class="form-group" id="addressDiv">
+            <label for="address">Endereço</label>
+            <input type="text" name="address" id="address" class="input">
+         </div>
+         <div class="openingHours form-group" id="openHourDiv">
+            <label for="openHour">Horário de abertura</label>
+            <input type="time" name="openHour" id="openHour" class="input">
+            <br>
+            <label for="closeHour">Horário de fechamento</label>
+            <input type="time" name="closeHour" id="closeHour" class="input">
+         </div>
+         <div class="form-group">
+            <input type="submit" id="submit">
+         </div>
+      </div>
+   </form>
+   <script src="script.js"></script>
+</body>
+</html>
