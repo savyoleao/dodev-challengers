@@ -6,7 +6,7 @@ address.addEventListener('focus', () => {
 });
 address.addEventListener('blur', () => {
    addressDiv.style.border = "";
-   console.log(address.value);
+   localStorage.setItem('address', address.value);
 });
 
 const nameStore = document.querySelector('#nameStore'); 
@@ -16,7 +16,8 @@ nameStore.addEventListener('focus', () => {
 });
 nameStore.addEventListener('blur', () => {
    nameDiv.style.border = "";
-   console.log(nameStore.value);
+   localStorage.setItem('nameStore', nameStore.value);
+
 });
 
 const openHour = document.querySelector('#openHour'); 
@@ -25,7 +26,7 @@ openHour.addEventListener('focus', () => {
    openHour.style.borderColor = "purple";
 });
 openHour.addEventListener('blur', () => {
-   console.log(openHour.value);
+   localStorage.setItem('openHour', openHour.value);
 });
 
 const closeHour = document.querySelector('#closeHour'); 
@@ -33,8 +34,17 @@ closeHour.addEventListener('focus', () => {
    closeHour.style.borderColor = "purple";
 });
 closeHour.addEventListener('blur', () => {
-   console.log(closeHour.value);
+   localStorage.setItem('closeHour', closeHour.value);
 });
+
+// Função para recuperar os valores do localStorage e preencher os inputs
+function loadValues() {
+   address.value = localStorage.getItem('address');
+   nameStore.value = localStorage.getItem('nameStore');
+   openHour.value = localStorage.getItem('openHour');
+   closeHour.value = localStorage.getItem('closeHour');
+}
+document.addEventListener('DOMContentLoaded', loadValues);
 
 const submit = document.querySelector('#submit');
 submit.addEventListener('click', async (event) => {
